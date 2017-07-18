@@ -1,1 +1,1 @@
-web: python divisionmapper.py ${PORT}
+div: python divisionmapper.py ${PORT}
