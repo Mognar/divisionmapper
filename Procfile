@@ -1,1 +1,1 @@
-bot: python divisionmapper.py ${PORT}
+worker: python divisionmapper.py ${PORT}
