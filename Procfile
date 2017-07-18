@@ -1,1 +1,1 @@
-worker: python divisionmapper.py ${PORT}
+web: python divisionmapper.py ${PORT}
