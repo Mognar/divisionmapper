@@ -52,12 +52,6 @@ def loader(url):
 url='{}/{}.json?session={}&{}'.format(stub,'commonsdivisions','2017/19','_view=all')
 items=loader(url)
 
-
-# In[23]:
-
-items[0]
-
-
 # In[24]:
 
 rem =[]
@@ -116,10 +110,6 @@ dffinal = dfs[['Constituency','MP','Party','Divs']]#,'No. of divisions']]
 #dffinal=dfz.to_string
 
 
-# In[27]:
-
-print(dffinal)
-
 
 # In[28]:
 
@@ -136,8 +126,6 @@ print(json1)
 
 
 # In[29]:
-
-get_ipython().system(u'pip install jsonmerge')
 from jsonmerge import merge
 
 
