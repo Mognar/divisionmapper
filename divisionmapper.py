@@ -2,9 +2,9 @@
 # coding: utf-8
 
 # In[17]:
-
+import os
 from github import Github
-g = Github([github ID goes here])
+g = Github(os.environ['gitID'])
 
 
 # In[18]:
