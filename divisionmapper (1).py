@@ -3,8 +3,6 @@
 
 # In[17]:
 
-get_ipython().system(u'pip install requests-cache')
-get_ipython().system(u'pip install pyGithub')
 from github import Github
 g = Github([github ID goes here])
 
