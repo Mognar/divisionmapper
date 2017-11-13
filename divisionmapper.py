@@ -17,7 +17,7 @@ import urllib.parse
 
 # In[19]:
 
-requests_cache.install_cache('divisions_cache', backend='sqlite')
+#requests_cache.install_cache('divisions_cache', backend='sqlite')
 
 
 # In[20]:
